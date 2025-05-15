@@ -1,5 +1,5 @@
-libdir=/home/razvan/CLionProjects/AnimalRace/install_dir/lib
-includedir=/home/razvan/CLionProjects/AnimalRace/install_dir/include
+libdir=/home/razvan/CLionProjects/oop/install_dir/lib
+includedir=/home/razvan/CLionProjects/oop/install_dir/include
 
 Name: gmock
 Description: GoogleMock (without main() function)

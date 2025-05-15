@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/razvan/CLionProjects/AnimalRace
+CMAKE_SOURCE_DIR = /home/razvan/CLionProjects/oop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/razvan/CLionProjects/AnimalRace/build
+CMAKE_BINARY_DIR = /home/razvan/CLionProjects/oop/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/oop.dir/depend.make
@@ -70,74 +70,74 @@ include CMakeFiles/oop.dir/progress.make
 include CMakeFiles/oop.dir/flags.make
 
 CMakeFiles/oop.dir/main.cpp.o: CMakeFiles/oop.dir/flags.make
-CMakeFiles/oop.dir/main.cpp.o: /home/razvan/CLionProjects/AnimalRace/main.cpp
+CMakeFiles/oop.dir/main.cpp.o: /home/razvan/CLionProjects/oop/main.cpp
 CMakeFiles/oop.dir/main.cpp.o: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/main.cpp.o -MF CMakeFiles/oop.dir/main.cpp.o.d -o CMakeFiles/oop.dir/main.cpp.o -c /home/razvan/CLionProjects/AnimalRace/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/main.cpp.o -MF CMakeFiles/oop.dir/main.cpp.o.d -o CMakeFiles/oop.dir/main.cpp.o -c /home/razvan/CLionProjects/oop/main.cpp
 
 CMakeFiles/oop.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/razvan/CLionProjects/AnimalRace/main.cpp > CMakeFiles/oop.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/razvan/CLionProjects/oop/main.cpp > CMakeFiles/oop.dir/main.cpp.i
 
 CMakeFiles/oop.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/razvan/CLionProjects/AnimalRace/main.cpp -o CMakeFiles/oop.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/razvan/CLionProjects/oop/main.cpp -o CMakeFiles/oop.dir/main.cpp.s
 
 CMakeFiles/oop.dir/src/Animal.cpp.o: CMakeFiles/oop.dir/flags.make
-CMakeFiles/oop.dir/src/Animal.cpp.o: /home/razvan/CLionProjects/AnimalRace/src/Animal.cpp
+CMakeFiles/oop.dir/src/Animal.cpp.o: /home/razvan/CLionProjects/oop/src/Animal.cpp
 CMakeFiles/oop.dir/src/Animal.cpp.o: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop.dir/src/Animal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/src/Animal.cpp.o -MF CMakeFiles/oop.dir/src/Animal.cpp.o.d -o CMakeFiles/oop.dir/src/Animal.cpp.o -c /home/razvan/CLionProjects/AnimalRace/src/Animal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop.dir/src/Animal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/src/Animal.cpp.o -MF CMakeFiles/oop.dir/src/Animal.cpp.o.d -o CMakeFiles/oop.dir/src/Animal.cpp.o -c /home/razvan/CLionProjects/oop/src/Animal.cpp
 
 CMakeFiles/oop.dir/src/Animal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/src/Animal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/razvan/CLionProjects/AnimalRace/src/Animal.cpp > CMakeFiles/oop.dir/src/Animal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/razvan/CLionProjects/oop/src/Animal.cpp > CMakeFiles/oop.dir/src/Animal.cpp.i
 
 CMakeFiles/oop.dir/src/Animal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/src/Animal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/razvan/CLionProjects/AnimalRace/src/Animal.cpp -o CMakeFiles/oop.dir/src/Animal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/razvan/CLionProjects/oop/src/Animal.cpp -o CMakeFiles/oop.dir/src/Animal.cpp.s
 
 CMakeFiles/oop.dir/src/Caine.cpp.o: CMakeFiles/oop.dir/flags.make
-CMakeFiles/oop.dir/src/Caine.cpp.o: /home/razvan/CLionProjects/AnimalRace/src/Caine.cpp
+CMakeFiles/oop.dir/src/Caine.cpp.o: /home/razvan/CLionProjects/oop/src/Caine.cpp
 CMakeFiles/oop.dir/src/Caine.cpp.o: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oop.dir/src/Caine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/src/Caine.cpp.o -MF CMakeFiles/oop.dir/src/Caine.cpp.o.d -o CMakeFiles/oop.dir/src/Caine.cpp.o -c /home/razvan/CLionProjects/AnimalRace/src/Caine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oop.dir/src/Caine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/src/Caine.cpp.o -MF CMakeFiles/oop.dir/src/Caine.cpp.o.d -o CMakeFiles/oop.dir/src/Caine.cpp.o -c /home/razvan/CLionProjects/oop/src/Caine.cpp
 
 CMakeFiles/oop.dir/src/Caine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/src/Caine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/razvan/CLionProjects/AnimalRace/src/Caine.cpp > CMakeFiles/oop.dir/src/Caine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/razvan/CLionProjects/oop/src/Caine.cpp > CMakeFiles/oop.dir/src/Caine.cpp.i
 
 CMakeFiles/oop.dir/src/Caine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/src/Caine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/razvan/CLionProjects/AnimalRace/src/Caine.cpp -o CMakeFiles/oop.dir/src/Caine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/razvan/CLionProjects/oop/src/Caine.cpp -o CMakeFiles/oop.dir/src/Caine.cpp.s
 
 CMakeFiles/oop.dir/src/Cal.cpp.o: CMakeFiles/oop.dir/flags.make
-CMakeFiles/oop.dir/src/Cal.cpp.o: /home/razvan/CLionProjects/AnimalRace/src/Cal.cpp
+CMakeFiles/oop.dir/src/Cal.cpp.o: /home/razvan/CLionProjects/oop/src/Cal.cpp
 CMakeFiles/oop.dir/src/Cal.cpp.o: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oop.dir/src/Cal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/src/Cal.cpp.o -MF CMakeFiles/oop.dir/src/Cal.cpp.o.d -o CMakeFiles/oop.dir/src/Cal.cpp.o -c /home/razvan/CLionProjects/AnimalRace/src/Cal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oop.dir/src/Cal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/src/Cal.cpp.o -MF CMakeFiles/oop.dir/src/Cal.cpp.o.d -o CMakeFiles/oop.dir/src/Cal.cpp.o -c /home/razvan/CLionProjects/oop/src/Cal.cpp
 
 CMakeFiles/oop.dir/src/Cal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/src/Cal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/razvan/CLionProjects/AnimalRace/src/Cal.cpp > CMakeFiles/oop.dir/src/Cal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/razvan/CLionProjects/oop/src/Cal.cpp > CMakeFiles/oop.dir/src/Cal.cpp.i
 
 CMakeFiles/oop.dir/src/Cal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/src/Cal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/razvan/CLionProjects/AnimalRace/src/Cal.cpp -o CMakeFiles/oop.dir/src/Cal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/razvan/CLionProjects/oop/src/Cal.cpp -o CMakeFiles/oop.dir/src/Cal.cpp.s
 
 CMakeFiles/oop.dir/src/example.cpp.o: CMakeFiles/oop.dir/flags.make
-CMakeFiles/oop.dir/src/example.cpp.o: /home/razvan/CLionProjects/AnimalRace/src/example.cpp
+CMakeFiles/oop.dir/src/example.cpp.o: /home/razvan/CLionProjects/oop/src/example.cpp
 CMakeFiles/oop.dir/src/example.cpp.o: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop.dir/src/example.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/src/example.cpp.o -MF CMakeFiles/oop.dir/src/example.cpp.o.d -o CMakeFiles/oop.dir/src/example.cpp.o -c /home/razvan/CLionProjects/AnimalRace/src/example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop.dir/src/example.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/src/example.cpp.o -MF CMakeFiles/oop.dir/src/example.cpp.o.d -o CMakeFiles/oop.dir/src/example.cpp.o -c /home/razvan/CLionProjects/oop/src/example.cpp
 
 CMakeFiles/oop.dir/src/example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/src/example.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/razvan/CLionProjects/AnimalRace/src/example.cpp > CMakeFiles/oop.dir/src/example.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/razvan/CLionProjects/oop/src/example.cpp > CMakeFiles/oop.dir/src/example.cpp.i
 
 CMakeFiles/oop.dir/src/example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/src/example.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/razvan/CLionProjects/AnimalRace/src/example.cpp -o CMakeFiles/oop.dir/src/example.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/razvan/CLionProjects/oop/src/example.cpp -o CMakeFiles/oop.dir/src/example.cpp.s
 
 # Object files for target oop
 oop_OBJECTS = \
@@ -157,10 +157,10 @@ oop: CMakeFiles/oop.dir/src/Cal.cpp.o
 oop: CMakeFiles/oop.dir/src/example.cpp.o
 oop: CMakeFiles/oop.dir/build.make
 oop: CMakeFiles/oop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable oop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable oop"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oop.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying tastatura.txt..."
-	/usr/bin/cmake -E copy_if_different /home/razvan/CLionProjects/AnimalRace/tastatura.txt /home/razvan/CLionProjects/AnimalRace/build
+	/usr/bin/cmake -E copy_if_different /home/razvan/CLionProjects/oop/tastatura.txt /home/razvan/CLionProjects/oop/build
 
 # Rule to build all files generated by this target.
 CMakeFiles/oop.dir/build: oop
@@ -171,6 +171,6 @@ CMakeFiles/oop.dir/clean:
 .PHONY : CMakeFiles/oop.dir/clean
 
 CMakeFiles/oop.dir/depend:
-	cd /home/razvan/CLionProjects/AnimalRace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/razvan/CLionProjects/AnimalRace /home/razvan/CLionProjects/AnimalRace /home/razvan/CLionProjects/AnimalRace/build /home/razvan/CLionProjects/AnimalRace/build /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles/oop.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/razvan/CLionProjects/oop/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/razvan/CLionProjects/oop /home/razvan/CLionProjects/oop /home/razvan/CLionProjects/oop/build /home/razvan/CLionProjects/oop/build /home/razvan/CLionProjects/oop/build/CMakeFiles/oop.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/oop.dir/depend
 

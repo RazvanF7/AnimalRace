@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/razvan/CLionProjects/AnimalRace
+CMAKE_SOURCE_DIR = /home/razvan/CLionProjects/oop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/razvan/CLionProjects/AnimalRace/build
+CMAKE_BINARY_DIR = /home/razvan/CLionProjects/oop/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -134,14 +134,14 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 CMakeFiles/oop.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop.dir/build.make CMakeFiles/oop.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop.dir/build.make CMakeFiles/oop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=9,10,11,12,13,14 "Built target oop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=9,10,11,12,13,14 "Built target oop"
 .PHONY : CMakeFiles/oop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/oop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/oop/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/oop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/oop/build/CMakeFiles 0
 .PHONY : CMakeFiles/oop.dir/rule
 
 # Convenience name for target.
@@ -160,14 +160,14 @@ CMakeFiles/oop.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=1,2 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=1,2 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/oop/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/oop/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -183,18 +183,18 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
+_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/oop/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/oop/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -213,14 +213,14 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=5,6 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/oop/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/oop/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -239,14 +239,14 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/razvan/CLionProjects/AnimalRace/build/CMakeFiles --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/razvan/CLionProjects/oop/build/CMakeFiles --progress-num=7,8 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/oop/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/AnimalRace/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razvan/CLionProjects/oop/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

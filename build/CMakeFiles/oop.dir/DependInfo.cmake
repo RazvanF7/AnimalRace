@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/razvan/CLionProjects/AnimalRace/main.cpp" "CMakeFiles/oop.dir/main.cpp.o" "gcc" "CMakeFiles/oop.dir/main.cpp.o.d"
-  "/home/razvan/CLionProjects/AnimalRace/src/Animal.cpp" "CMakeFiles/oop.dir/src/Animal.cpp.o" "gcc" "CMakeFiles/oop.dir/src/Animal.cpp.o.d"
-  "/home/razvan/CLionProjects/AnimalRace/src/Caine.cpp" "CMakeFiles/oop.dir/src/Caine.cpp.o" "gcc" "CMakeFiles/oop.dir/src/Caine.cpp.o.d"
-  "/home/razvan/CLionProjects/AnimalRace/src/Cal.cpp" "CMakeFiles/oop.dir/src/Cal.cpp.o" "gcc" "CMakeFiles/oop.dir/src/Cal.cpp.o.d"
-  "/home/razvan/CLionProjects/AnimalRace/src/example.cpp" "CMakeFiles/oop.dir/src/example.cpp.o" "gcc" "CMakeFiles/oop.dir/src/example.cpp.o.d"
+  "/home/razvan/CLionProjects/oop/main.cpp" "CMakeFiles/oop.dir/main.cpp.o" "gcc" "CMakeFiles/oop.dir/main.cpp.o.d"
+  "/home/razvan/CLionProjects/oop/src/Animal.cpp" "CMakeFiles/oop.dir/src/Animal.cpp.o" "gcc" "CMakeFiles/oop.dir/src/Animal.cpp.o.d"
+  "/home/razvan/CLionProjects/oop/src/Caine.cpp" "CMakeFiles/oop.dir/src/Caine.cpp.o" "gcc" "CMakeFiles/oop.dir/src/Caine.cpp.o.d"
+  "/home/razvan/CLionProjects/oop/src/Cal.cpp" "CMakeFiles/oop.dir/src/Cal.cpp.o" "gcc" "CMakeFiles/oop.dir/src/Cal.cpp.o.d"
+  "/home/razvan/CLionProjects/oop/src/example.cpp" "CMakeFiles/oop.dir/src/example.cpp.o" "gcc" "CMakeFiles/oop.dir/src/example.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/razvan/CLionProjects/AnimalRace/include -I/home/razvan/CLionProjects/AnimalRace/src -isystem /home/razvan/CLionProjects/AnimalRace/generated/include
+CXX_INCLUDES = -I/home/razvan/CLionProjects/oop/include -I/home/razvan/CLionProjects/oop/src -isystem /home/razvan/CLionProjects/oop/generated/include
 
 CXX_FLAGS = -g -std=c++23 -fdiagnostics-color=always -Wall -Wextra -pedantic
 

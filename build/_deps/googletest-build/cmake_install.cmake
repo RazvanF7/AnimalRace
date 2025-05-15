@@ -1,8 +1,8 @@
-# Install script for directory: /home/razvan/CLionProjects/AnimalRace/build/_deps/googletest-src
+# Install script for directory: /home/razvan/CLionProjects/oop/build/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/razvan/CLionProjects/AnimalRace/install_dir")
+  set(CMAKE_INSTALL_PREFIX "/home/razvan/CLionProjects/oop/install_dir")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/razvan/CLionProjects/AnimalRace/build/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("/home/razvan/CLionProjects/oop/build/_deps/googletest-build/googlemock/cmake_install.cmake")
 
 endif()
 

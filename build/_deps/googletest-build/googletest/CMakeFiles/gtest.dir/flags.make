@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/razvan/CLionProjects/AnimalRace/include -I/home/razvan/CLionProjects/AnimalRace/src -I/home/razvan/CLionProjects/AnimalRace/build/_deps/googletest-src/googletest/include -I/home/razvan/CLionProjects/AnimalRace/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/home/razvan/CLionProjects/oop/include -I/home/razvan/CLionProjects/oop/src -I/home/razvan/CLionProjects/oop/build/_deps/googletest-src/googletest/include -I/home/razvan/CLionProjects/oop/build/_deps/googletest-src/googletest
 
 CXX_FLAGS = -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
 
