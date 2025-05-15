@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/oop.dir/main.cpp.o CMakeFiles/oop.dir/src/Animal.cpp.o CMakeFiles/oop.dir/src/Caine.cpp.o CMakeFiles/oop.dir/src/Cal.cpp.o CMakeFiles/oop.dir/src/example.cpp.o -o oop 
